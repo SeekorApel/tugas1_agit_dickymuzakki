@@ -3,7 +3,7 @@ package id.co.astratech.tugas1_agit_dickymuzakki;
 
 public class DtoResponse {
 
-    private int status;
+    private int s;
 
     private Object data;
 
