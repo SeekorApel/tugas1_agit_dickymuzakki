@@ -10,9 +10,9 @@ public class RabbitMQController {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    private static final String  routingKey = "polmanQeueu";
+    private static final String  routingKey = "dq";
 
-    private static final String exchange = "polmanExternalExchange";
+    private static final String exchange = "dickyExchange";
 
     @RequestMapping(value = "/kirimPesan", method = RequestMethod.POST)
     public DtoResponse kirimPesan(@RequestBody String pesan){
